@@ -1,2 +1,3 @@
-pip install -r requirements.txt
+pipenv shell
+pipenv install
 python manage.py collectstatic --noinput
